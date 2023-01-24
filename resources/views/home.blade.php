@@ -11,14 +11,14 @@
 <body class="text-success bg-warning">
 
     <div class="container">
-        <h1 class="text-center text-danger">Laravel Migration</h1>
+        <h1 class="text-center text-success">Laravel Migration</h1>
 
         <h2 class="text-center py-5 text-primary">Treni in partenza oggi</h2>
         <div class="row">
              @foreach($trains as $train)
                 
              <div class="col-6">
-                 <div class="card border-0 text-center">
+                 <div class="card border-0 text-center text-danger">
                      <h4>Azienda:{{$train->azienda}}</h4>
                      <h4>Stazione partenza: {{$train->stazione_partenza}}</h4>
                      <h4>Stazione arrivo: {{$train->stazione_arrivo}}</h4>
