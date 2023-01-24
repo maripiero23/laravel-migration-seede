@@ -20,12 +20,12 @@
              <div class="col-6">
                  <div class="card border-0 text-center">
                      <h4>Azienda:{{$train->azienda}}</h4>
-                     <h4>Stazione partenza:{{$train->stazione_partenza}}</h4>
-                     <h4>Stazione arrivo:{{$train->stazione_arrivo}}</h4>
-                     <h4>Orario di partenza:{{$train->orario_partenza}}</h4>
-                     <h4>ID Treno:{{$train->orario_arrivo}}</h4>
-                     <h4>Numero Carrozza:{{$train->id_treno}}</h4>
-                     <h4>In orario:{{$train->numero_carrozza}}</h4>
+                     <h4>Stazione partenza: {{$train->stazione_partenza}}</h4>
+                     <h4>Stazione arrivo: {{$train->stazione_arrivo}}</h4>
+                     <h4>Orario di partenza: {{$train->orario_partenza}}</h4>
+                     <h4>ID Treno: {{$train->orario_arrivo}}</h4>
+                     <h4>Numero Carrozza: {{$train->id_treno}}</h4>
+                     <h4>In orario: {{$train->numero_carrozza}}</h4>
                  </div>
              </div>
              @endforeach
